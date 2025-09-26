@@ -8,13 +8,15 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="navbar">
         <div class="logo">
           <img src="logo.png" alt="Ayushman Logo" />
         </div>
         <ul class="nav-links">
           <li><a href="#">Home</a></li>
           <li><a href="#">About Us</a></li>
+          <li><a href="#">About Panchkarma</a></li>
+          <li><a href="#">(if any)</a></li>
         </ul>
         <div class="nav-buttons">
           <button onclick="window.location.href='login.html'">Login</button>
@@ -24,7 +26,6 @@
     </header>
 
     <main>
-      <!-- Hero Section (Video Only) -->
       <section class="hero">
         <video autoplay muted>
           <source src="hero_vid3.mp4" type="video/mp4" />
@@ -32,36 +33,56 @@
         </video>
       </section>
 
-      <!-- Tagline Section -->
       <section class="tagline">
-        <h1>One Step Closer to Healing</h1>
+        <h1>Your Therapy, Your Time – Simplified!</h1>
         <p>Discover the essence of Panchkarma & Ayurveda</p>
       </section>
 
-      <!-- Patient / Practitioner Login -->
       <section class="access">
-        <h2>Get Started</h2>
-        <div class="access-options">
-          <button onclick="window.location.href='patient-login.html'">
-            Patient Login / Signup
-          </button>
-          <button onclick="window.location.href='practitioner-login.html'">
-            Practitioner Login / Signup
-          </button>
+        <div class="access-container">
+          <div class="access-options">
+            <h2>Sign Up as Patient</h2>
+            <p>
+              Take control of your therapy journey! Book sessions, track
+              progress, and get real-time updates from your therapist – all in
+              one place.
+            </p>
+            <button onclick="window.location.href='patient-login.html'">
+              Signup
+            </button>
+          </div>
+          <div class="access-options">
+            <h2>Sign Up as Practitioner</h2>
+            <p>
+              Simplify your practice! Manage appointments, monitor patient
+              progress, and optimize your schedule effortlessly.
+            </p>
+            <button onclick="window.location.href='practitioner-login.html'">
+              Signup
+            </button>
+          </div>
         </div>
       </section>
 
-      <!-- About Section -->
       <section class="about">
-        <h2>About Panchkarma</h2>
+        <h2>“Reset. Rejuvenate. Revive – Experience Panchakarma.”</h2>
         <p>
-          Panchkarma is an ancient Ayurvedic healing practice that focuses on
-          detoxifying, rejuvenating, and balancing the body, mind, and spirit.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima,
-          quidem doloribus dolore tempore optio qui. Unde, deleniti? Cum
-          perferendis aliquid natus odit itaque quisquam eos aliquam animi magni
-          est!
+          Step into the world of Ayurveda and give your body the ultimate detox.
+          Panchakarma isn’t just therapy—it’s a journey to restore balance,
+          boost energy, and renew your mind and body. Personalized treatments
+          help flush out toxins, improve digestion, and elevate your overall
+          wellness.
         </p>
+        <div class="about-actions">
+          <!-- Button above image now -->
+          <button onclick="window.location.href='about_panchkarma.html'">
+            Click to know more
+          </button>
+          <img
+            src="panchkarma.jpg"
+            alt="Picture related to Panchkarma/Ayurveda"
+          />
+        </div>
       </section>
     </main>
 
